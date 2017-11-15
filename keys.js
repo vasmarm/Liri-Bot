@@ -15,7 +15,7 @@ if(process.argv[2] === "my-tweet"){
 
 	module.exports = client;
 }
-else if(process.argv[2] === "spotify-this-song"){
+else if(process.argv[2] === "spotify-this-song" || process.argv[2] === "do-what-it-says"){
 	var Spotify = require('node-spotify-api');
 
 	var spotify = new Spotify({
