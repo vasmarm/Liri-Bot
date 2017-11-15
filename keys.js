@@ -1,8 +1,6 @@
 
 // Twitter
 
-
-
 if(process.argv[2] === "my-tweet"){
 	var Twitter = require('twitter');
 
@@ -25,9 +23,3 @@ else if(process.argv[2] === "spotify-this-song" || process.argv[2] === "do-what-
 
 	module.exports = spotify;
 }
-
-// Spotify
-
-
-
-// OMDBI
